@@ -1,0 +1,25 @@
+# --- Core Application Dependencies ---
+# HTTP requests for interacting with LLM and Lakera APIs
+requests>=2.31.0
+
+# Data validation and strict typing for tool schemas
+pydantic>=2.0.0
+
+# Environment variable management for API keys
+python-dotenv>=1.0.0
+
+# Terminal formatting for professional CLI output
+rich>=13.0.0
+
+# YAML parsing for loading config.yaml
+PyYAML>=6.0.1
+
+# --- Security & Testing Dependencies (DevSecOps) ---
+# Testing framework
+pytest>=7.4.0
+
+# Linting and PEP-8 enforcement
+flake8>=6.1.0
+
+# Static Application Security Testing (SAST)
+bandit>=1.7.5
