@@ -1,3 +1,4 @@
+from attacks.direct_injection import DirectInjectionEvaluator
 from rich.console import Console
 from rich.table import Table
 from defenses.privilege_guard import PrivilegeGuard
